@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form action="">
+        <p>Nombre:</p>
+        <input type="text" name="nombre">
+        <p>Apellido:</p>
+        <input type="text" name="apellido">
+        <p>Contraseña:</p>
+        <input type="password" name="contraseña">
+        <input type="submit" value="enviar">
+        <input type="reset">
+    </form>
+
+    <form action="">
+        <input type="radio" name="Grupo" value="Frutas" checked>Piña<br>
+        <input type="radio" name="Grupo" value="Animales">Perro <br>
+        <input type="checkbox" name="Mango" value="fruta">Tengo una Mango <br>
+        <input type="date" name="Cumpleaños"> <br>
+        <input type="button" onclick="alert('Hola mundo! :D')" value="Haz click">
+    </form>
+
+    <form action="">
+        <select name="Lista" id="Compras">
+            <option>Cereal</option>
+            <option>Pan</option>
+            <option selected>Azucar</option>
+            <option>Leche</option>
+        </select>
+    </form>
+
+    <!-- por aqui hay un error -->
+
+    <form action="">
+        <textarea name="texto" id="" cols="30" rows="10">
+            Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        </textarea> <br>
+        <input type="color">
+    </form>
+
+</body>
+</html>
