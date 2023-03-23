@@ -1,0 +1,14 @@
+Ejercicio 1  "Mi tiendita"
+
+1.Generar la estructura basica para un proyecto en HTML(carpetas, documentos,etc.).
+2.Generar 2 documentos HTML en los cuales contenga lo siguiente.
+2.1. estructura basica con etiquetas semanticas.
+2.2. enlaces a otras paginas relacionadas al proyecto(Mi tiendita).
+2.3. imagenes y videos.
+2.4. nav interna
+2.5. formularios(botones, inputs, labels,etc).
+3. Uso de iframes
+4. En el footer inserta ligas que te dirigan a tus redes sociales.
+5. Utilizar 5 etiques diferentes a las vistas en las clases pasadas.
+6. Agregar nuevos fuentes, colores e iconos a las paginas creadas. 
+
