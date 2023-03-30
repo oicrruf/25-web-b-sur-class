@@ -3,6 +3,9 @@
   outline: 1px solid limegreen !important; */
   font-family: "Poppins", sans-serif;
 }
+body{
+  margin: auto 200px;
+}
 #my-info {
   display: flex;
   /* flex-direction: row; */
@@ -36,3 +39,22 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
+
+@media (min-width: 576px) {  
+  body {
+    font-size: 13px;
+    margin: auto 10px;
+  }
+  .my-grade__professional{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (min-width: 768px) { body {
+  font-size: 14px;
+  margin: auto 50px;
+}
+.my-grade__professional{
+  grid-template-columns: repeat(2, 1fr);
+} }
+
