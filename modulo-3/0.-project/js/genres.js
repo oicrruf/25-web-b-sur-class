@@ -17,17 +17,21 @@ const getGenres = async () => {
       }),
     }
   );
+  // console.log(1)
+  
   return await response.json();
 };
 
 getGenres().then((response) =>
   response.genres.forEach((genre) => {
-    const genreItem = document.createElement("li");
-    const genreLink = document.createElement("a");
-    genreLink.innerText = genre.name;
-    genreLink.classList.add("dropdown-item");
-    genreLink.setAttribute("href", "#");
-    genreItem.appendChild(genreLink);
-    genreList.appendChild(genreItem);
+    // console.log(genre)
+    const genreItem = document.createElement("li"); // Creamos elemento li
+    const genreLink = document.createElement("a"); // Creamos elemento a
+    genreLink.innerText = genre.name; // Damos un nombre al elemento <a>
+    genreLink.classList.add("dropdown-item"); // Añadimos la class al elemento <a> 
+    genreLink.setAttribute("href", "#"); // Agregamos el atributo href al elemento <a>
+    genreItem.appendChild(genreLink); // Agregamos como hijo el elemento <a> al elemento <li> (<li><a></a></li>)
+    genreList.appendChild(genreItem); // Agregamos cada elemento li como hijo del elemento <ul>
   })
 );
+// console.log(2)
