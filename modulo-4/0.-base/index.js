@@ -4,7 +4,7 @@ const port = 8000;
 
 const alumnos = [
   { id: 1, name: "Anayeli Soto", score: 40 },
-  { id: 2, name: "Efrén Jiménez", scrore: 50 },
+  { id: 2, name: "Efrén Jiménez", score: 50 },
   { id: 3, name: "Erika Hernández", score: 60 },
   { id: 4, name: "Elias Monrroy", score: 70 },
 ];
