@@ -19,8 +19,10 @@ app.get("/alumnos", function (req, res) {
 
 // http://localhost:8000/alumnos/notas?min=50&max=60
 app.get("/alumnos/notas/", function (req, res) {
-  console.log(req.query)
-  res.status(200).json(alumnos);
+  let alumno = alumnos.filter(
+    (alumno) => alumno.score >= req.query.min && alumno.score <= req.query.max
+  );
+  res.status(200).json(alumno);
 });
 
 app.get("/alumnos/:id", function (req, res) {
@@ -33,10 +35,6 @@ app.get("/alumnos/:id", function (req, res) {
     res.status(404).json({ message: "Alumno no encontrado" });
   }
 });
-
-
-
-
 
 app.listen(port, () => {
   console.log(`Server running in port ${port}`);
