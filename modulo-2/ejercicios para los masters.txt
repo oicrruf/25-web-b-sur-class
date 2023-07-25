@@ -1,0 +1,46 @@
+1._----------------------------------------------------
+// Crea una aplicacion web con JavaScript que 
+// permita a dos usuarios jugar una partida de 
+// piedra papel o tijeras:
+
+// Pide al jugador1 y al jugador2 que escriban su
+// elección mediante un prompt y, tras comparar los 
+// valores, muestra mediante un alert quién fue el 
+// jugador ganador.
+
+2._-------------------------------------------------------------
+
+// Cree una aplicacion web con JavaScript que reciba
+// 3 numeros digitados por el usuario y con un alert
+// muestre el numero mayor.
+
+3._------------------------------------------------------------
+
+// Escribe una función llamada evaluate que reciba como parámetro un número retorne lo siguiente:
+// "Positivo" si el número es positivo.
+// "Negativo" si el número es negativo.
+// "Cero" si el número es cero.
+
+4._-------------------------------------------------------------
+
+// Escriba una función para ingresar 
+//      cualquier letra del alfabeto y verifique 
+//      si es vocal o consonante
+
+5._-----------------------------------------------------------
+
+// Definir una función que muestre la informacion sobre una
+// cadena de texto ingresada por un usuario. La funcion debe
+// determinar si la cadena de texto es o no un palindromo.
+
+6._----------------------------------------------------------
+
+//Crear una aplicacion que permita a un profesor generar las //notas definitivas de
+//sus alumnos.
+
+//Debemos permitir al profesor que nos indique cuantos alumnos va a calificar
+//Debemos permitir al profesor ingresar la cantidad de notas que va promediar 
+//en general.
+//Con esas notas vamos obtener el promedio de cada estudiante
+//Mostrar al profesor al final una lista de estudiantes con su nombre y 
+//su definitiva.

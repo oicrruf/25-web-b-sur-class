@@ -1,0 +1,14 @@
+body{
+    background-color: #90caf9;
+}
+
+footer a{
+    position: fixed;
+    bottom: 20px;
+    left: 85%;
+    background-color: darkorchid;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    color: #fff;
+}
