@@ -1,4 +1,5 @@
-import { Input, Button, Label, FormGroup } from "reactstrap";
+import { Input, Button, FormGroup } from "reactstrap";
+import Label from "../../atom/Label/Label";
 import { useState } from "react";
 
 function Login() {
@@ -16,7 +17,9 @@ function Login() {
       <div className="w-50">
         <div className="my-3">
           <FormGroup>
-            <Label for="user">User</Label>
+            <Label 
+            // size="fs-3" 
+            forHtml="user">User</Label>
             <Input
               value={user}
               id="user"
@@ -26,7 +29,7 @@ function Login() {
               ></Input>
           </FormGroup>
           <FormGroup>
-            <Label for="password">Password</Label>
+            <Label size="fs-1" forHtml="password">Password</Label>
             <Input
               value={password}
               id="password"
