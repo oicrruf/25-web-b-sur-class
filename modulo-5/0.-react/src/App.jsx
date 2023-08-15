@@ -1,12 +1,13 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import Main from "./components/templates/Main/Main";
-import Login from "./components/screen/Login/Login";
+import Home from "./components/screen/Home/Home";
+
 
 const App = () => {
   return (
     <>
       <Main>
-        <Login></Login>
+        <Home/>
       </Main>
     </>
   );
