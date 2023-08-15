@@ -1,5 +1,6 @@
-import { Input, Button, FormGroup } from "reactstrap";
+import { Input,  FormGroup } from "reactstrap";
 import Label from "../../atom/Label/Label";
+import Button from "../../atom/Button/Button";
 import { useState } from "react";
 
 function Login() {
