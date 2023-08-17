@@ -1,28 +1,26 @@
-import {
-  createBrowserRouter
-} from "react-router-dom";
-import App from '../../App.jsx'
+import { createBrowserRouter } from "react-router-dom";
+import App from "../../App.jsx";
 import Login from "../screen/Login/Login.jsx";
-import Register from "../screen/Register/Register.jsx";
 import Dashboard from "../screen/Dashboard/Dashboard.jsx";
+import SignUp from "../screen/SignUp/SignUp.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App/>,
+    element: <App />,
   },
   {
     path: "/login",
-    element: <Login/>,
-  },
-  {
-    path: "/register",
-    element: <Register/>,
+    element: <Login />,
   },
   {
     path: "/dashboard",
-    element: <Dashboard/>,
+    element: <Dashboard />,
+  },
+  {
+    path: "/register",
+    element: <SignUp />,
   },
 ]);
 
-export default router
+export default router;

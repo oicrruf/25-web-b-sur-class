@@ -37,6 +37,9 @@ const Home = () => {
           <div>
             <Link to="/dashboard">Go to dashboard</Link>
           </div>
+          <div>
+            <Link to="/register">Go to Sign Up</Link>
+          </div>
         </>
       )}
     </>
